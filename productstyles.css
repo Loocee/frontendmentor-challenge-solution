@@ -6,7 +6,7 @@ h1{
   color: hsl(212, 21%, 14%);
   font-family: "Fraunces";
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2.6rem;
 }
 
 h6{
@@ -26,13 +26,17 @@ span{
 }
 
 /* class selectors */
-.para1{
+.para1 {
   color: hsl(228, 12%, 48%);
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 1rem;
-
 }
+
+
+
+
+
 
 .para2{
   color: hsl(158, 36%, 37%);
@@ -54,7 +58,7 @@ span{
 
 .inner-div{
   height: 100%;
-  padding: 7%;
+  padding: 12% 10%;
    margin: 0;
    background-color: hsl(0, 0%, 100%);
    border-radius: 0 10px 10px 0;}
