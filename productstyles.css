@@ -52,6 +52,7 @@ span{
 }
 
 .inner-div{
+  height: 100%;
   padding: 7%;
    margin: 0;
    background-color: hsl(0, 0%, 100%);
