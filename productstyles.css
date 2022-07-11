@@ -1,0 +1,145 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+h1{
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 2.6rem;
+}
+
+h6{
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+span{
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  padding: 6% 12%;
+
+}
+
+/* class selectors */
+.shopping-text, .shopping-text:hover{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1rem;
+  color: hsl(0, 0%, 100%);
+  text-align: justify;
+  text-decoration: none;
+  filter: brightness(150%);
+  padding: 4%;
+}
+
+.para1{
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.para2{
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 2rem;
+  display: inline-flex;
+  margin-bottom: 14px;
+}
+
+.container{
+  padding: 10% 23.5%;
+}
+
+.image-div{
+  padding: 0;
+  margin: 0;
+  width: 320.875px;
+  height: 100%;
+}
+
+.inner-div{
+height: 100%;
+  padding: 12% 10% ;
+   margin: 0;
+   background-color: hsl(0, 0%, 100%);
+   border-radius: 0 10px 10px 0;
+
+ }
+
+
+.pic1{
+  height: 100%;
+  width: 320.875px;
+  border-radius: 10px 0 0 10px;
+}
+
+.pic2{
+  display: none;
+}
+
+.row{
+  width: 641.76px;
+  margin: 0;
+}
+
+.shopping-btn{
+  background: hsl(158, 36%, 37%);
+  border-color: hsl(158, 36%, 37%);
+}
+
+.shopping-btn:hover{
+  background: hsl(158, 36%, 37%);
+  border-color: hsl(158, 36%, 37%);
+  filter: brightness(85%)
+}
+
+.text-div{
+  padding: 0;
+  margin: 0;
+  width: 320.875px;
+
+}
+
+/* media query */
+@media (max-width: 375px) {
+.container{
+  padding: 7% 4%;
+  height: 100%;
+  width: 100%;
+}
+
+.image-div{
+  width: 100%;
+}
+
+.inner-div{
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+
+  .pic1{
+    display: none;
+  }
+
+  .pic2{
+    display: block;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+  }
+
+  .row{
+    width: 100%;
+    height: 100%;
+  }
+
+.text-div{
+  width: 100%;
+}}
