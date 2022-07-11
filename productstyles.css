@@ -49,6 +49,7 @@ span{
   padding: 0;
   margin: 0;
   width: 320.875px;
+  height: 100%;
 }
 
 .inner-div{
@@ -60,7 +61,7 @@ span{
 
 
 .pic1{
-  height: 411.906px;
+  height: 100%;
   width: 320.875px;
   border-radius: 10px 0 0 10px;
 }
